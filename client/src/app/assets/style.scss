@@ -1,0 +1,70 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.department-container {
+  width: 300px;
+  height: auto;
+  background-color: rgba(152, 152, 152, 0.32);
+  padding: 10px;
+  line-height: 1em;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  margin: 5px;
+  padding-bottom: 20px;
+
+  &__name {
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__location {
+    margin: 0px;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: 0.8em;
+  }
+
+  &__employees {
+  }
+}
+
+.employees {
+  list-style-type: none;
+  margin: 20px 5px;
+  padding: 0px 5px;
+  text-transform: capitalize;
+
+  &__item {
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid rgb(171, 171, 171);
+  }
+}
+
+.item {
+  &__info {
+    position: relative;
+    line-height: 2em;
+    &_name {
+
+    }
+    &_job {
+      float: right;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
